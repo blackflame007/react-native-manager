@@ -7,7 +7,11 @@ import EmployeeCreate from './components/EmployeeCreate';
 const RouterComponent = () => {
   return (
     <Router>
-      <Scene key="root" hideNavBar titleStyle={{ alignSelf: 'center' }}>
+      <Scene
+        key="root"
+        hideNavBar
+        titleStyle={{ alignSelf: 'center', fontWeight: 'normal' }}
+      >
         <Scene key="auth">
           <Scene
             key="login"
